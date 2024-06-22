@@ -19,7 +19,7 @@ dag = DAG(
     schedule_interval='0 */1 * * *',
 )
 
-coleta_dados = BashOperator(
+faz_teste = BashOperator(
     task_id='coleta_dados',
     bash_command='python3 /usr/local/airflow/scripts/ingestao_dados_olist.py',
     dag=dag,
