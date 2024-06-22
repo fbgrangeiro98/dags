@@ -13,7 +13,7 @@ default_args = {
 }
 
 dag = DAG(
-    'DAG_INGESTAO_DADOS_OLIST',
+    'DAG_INGESTAO_DADOS_OLIST_bkp',
     default_args=default_args,
     description='Descricao do DAG',
     schedule_interval='0 */1 * * *',
