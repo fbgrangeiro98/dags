@@ -25,4 +25,4 @@ faz_teste = BashOperator(
     dag=dag,
 )
 
-coleta_dados
+faz_teste
