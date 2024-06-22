@@ -2,6 +2,8 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from datetime import datetime, timedelta
 
+##estou testando
+
 default_args = {
     'owner': 'airflow',
     'depends_on_past': False,
